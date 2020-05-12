@@ -5,12 +5,51 @@
           box-sizing: border-box;
 }
 
+nav {
+  width: 100%;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.hero-shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   background-image: url("/img/header3.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  z-index: 10;
+}
+
+.navbar-brand {
+  font-size: 26px;
+}
+
+.wrapper {
+  height: 100%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .baner {
@@ -31,7 +70,38 @@ header {
   color: white;
 }
 
+.baner .options button {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.baner .options button:hover {
+  color: black;
+  background-color: white;
+}
+
 .about {
   height: 500px;
+}
+
+.collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.collapse .nav-link {
+  font-size: 24px;
+  color: white !important;
 }
 /*# sourceMappingURL=main.css.map */
