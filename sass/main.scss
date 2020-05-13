@@ -4,19 +4,59 @@
     box-sizing: border-box;
 }
 
-nav {
-    width: 100%;
+html{
+    scroll-behavior: smooth;
 }
 
-.navbar-toggler-icon{
-    color: white;
+body{
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    background: rgba(0, 0, 0, .9);
+    border-bottom: 1px solid red;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse .nav-link {
+    font-size: 20px;
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color .3s;
+}
+
+.collapse .nav-link:hover{
+    color: red!important;
+}
+
+.shadow-bg {
+    background-color: rgba(0, 0, 0, .7);
+    transition: .3s;
 }
 
 .hero-shadow {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.wrapper {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -32,16 +72,6 @@ header {
     z-index: 10;
 }
 
-.navbar-brand {
-    font-size: 26px;
-}
-
-.wrapper {
-    height: 100%;
-    width: 90%;
-    display: flex;
-}
-
 .baner {
     position: relative;
     display: flex;
@@ -52,34 +82,40 @@ header {
 }
 
 .baner {
+
+    h1{
+        font-size: 45px;
+    }
+
+    .options{
+        padding-top: 30px;
+    }
+
     .options button {
+        display: flex;
+        justify-content: center;
+        width: 250px;
         padding: 10px;
-        margin: 0 10px;
-        border: 1px solid white;
+        margin: 15px 0;
+        border: 1px solid red;
         border-radius: 5px;
         text-transform: uppercase;
         color: white;
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, .5);
         transition: .3s;
     }
 
     .options button:hover {
-        color: black;
-        background-color:white;
+        color:#cbd3da;
+        background-color: rgba(0, 0, 0, .7);
     }
 }
 
 
 .about {
-    height: 500px;
+    height: 700px;
 }
 
-.collapse {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.collapse .nav-link {
-    font-size: 24px;
-    color: white !important;
+.hidden {
+    font-size: 0;
 }
