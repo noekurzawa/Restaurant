@@ -13,31 +13,33 @@ body{
 }
 
 nav {
-    width: 100%;
-    background: rgba(0, 0, 0, .9);
+    background: rgb(0, 0, 0);
     border-bottom: 1px solid red;
 }
 
-.navbar-brand {
-    font-size: 26px;
+.fas.fa-bars{
+    color: white;
 }
 
 .collapse{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
+    text-align: center;
 }
 
-.collapse .nav-link {
-    font-size: 20px;
-    color: white !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: color .3s;
-}
-
-.collapse .nav-link:hover{
-    color: red!important;
+.navbar{
+    .collapse .nav-link {
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color .3s;
+    }
+    
+    .collapse .nav-link:hover{
+        color: red;
+    }
 }
 
 .shadow-bg {

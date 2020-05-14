@@ -14,13 +14,12 @@ body {
 }
 
 nav {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: black;
   border-bottom: 1px solid red;
 }
 
-.navbar-brand {
-  font-size: 26px;
+.fas.fa-bars {
+  color: white;
 }
 
 .collapse {
@@ -33,19 +32,20 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 50px 0;
+  text-align: center;
 }
 
-.collapse .nav-link {
+.navbar .collapse .nav-link {
   font-size: 20px;
-  color: white !important;
   text-transform: uppercase;
   letter-spacing: 1px;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
 
-.collapse .nav-link:hover {
-  color: red !important;
+.navbar .collapse .nav-link:hover {
+  color: red;
 }
 
 .shadow-bg {
