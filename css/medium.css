@@ -13,4 +13,16 @@
   width: 200px !important;
   margin-left: 20px !important;
 }
+
+.products-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.walpapper {
+  margin-bottom: 0;
+}
 /*# sourceMappingURL=medium.css.map */

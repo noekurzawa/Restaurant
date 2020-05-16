@@ -59,6 +59,7 @@ nav {
     width: 90%;
     display: flex;
     justify-content: center;
+    align-items: center
 }
 
 header {
@@ -113,11 +114,72 @@ header {
     }
 }
 
-
-.about {
-    height: 700px;
-}
-
 .hidden {
     font-size: 0;
 }
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.products-box{
+    width: 100%;
+}
+
+.walpapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(165, 146, 146);
+    background-position: center;
+    background-size: cover;
+    transition: .3s;
+
+    .product{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .7);
+
+        .product-name{
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        .price{
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        button{
+            width: 90%;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: white;
+        }
+    }
+}
+
+.img-1{
+    background-image: url('/menu.img/coffee-2589760_1280.jpg');
+}
+
+.img-2{
+    background-image: url('/menu.img/cake-3988999_1280.jpg');
+}
+
+.img-3{
+    background-image: url('/menu.img/hot-chocolate-1137641_1280.jpg');
+}
+
+.img-4{
+    background-image: url('/menu.img/eclair-3366437_1920.jpg');
+}
+
