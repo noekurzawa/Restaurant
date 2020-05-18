@@ -37,6 +37,7 @@ nav {
 }
 
 .navbar .collapse .nav-link {
+  color: white;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -141,15 +142,15 @@ header {
 }
 
 .baner .options button:hover {
-  color: #cbd3da;
-  background-color: rgba(0, 0, 0, 0.7);
+  color: #e91919;
+  background-color: black;
 }
 
 .hidden {
   font-size: 0;
 }
 
-.about {
+.special {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,6 +217,12 @@ header {
   text-transform: uppercase;
   font-weight: 500;
   color: white;
+  background-color: #e91919;
+}
+
+.walpapper .product button:hover {
+  background-color: #8b0101;
+  border: none;
 }
 
 .img-1 {
@@ -232,5 +239,22 @@ header {
 
 .img-4 {
   background-image: url("/menu.img/eclair-3366437_1920.jpg");
+}
+
+.informations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.informations a {
+  color: black;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */

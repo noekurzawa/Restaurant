@@ -21,6 +21,10 @@ nav {
           transform: scale(1.1);
 }
 
+.wrapper {
+  width: 75%;
+}
+
 @media (min-width: 1400px) {
   .wrapper {
     max-width: 60%;

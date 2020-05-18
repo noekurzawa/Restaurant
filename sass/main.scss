@@ -31,6 +31,7 @@ nav {
 
 .navbar{
     .collapse .nav-link {
+        color: white;
         font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -104,13 +105,13 @@ header {
         border-radius: 5px;
         text-transform: uppercase;
         color: white;
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0,.5);
         transition: .3s;
     }
 
     .options button:hover {
-        color:#cbd3da;
-        background-color: rgba(0, 0, 0, .7);
+        color: rgb(233, 25, 25);
+        background-color: rgb(0, 0, 0);
     }
 }
 
@@ -118,7 +119,7 @@ header {
     font-size: 0;
 }
 
-.about{
+.special{
     display: flex;
     justify-content: center;
     padding: 40px 0;
@@ -163,6 +164,12 @@ header {
             text-transform: uppercase;
             font-weight: 500;
             color: white;
+            background-color: rgb(233, 25, 25);
+        }
+
+        button:hover{
+            background-color: rgb(139, 1, 1);
+            border: none;
         }
     }
 }
@@ -183,3 +190,13 @@ header {
     background-image: url('/menu.img/eclair-3366437_1920.jpg');
 }
 
+.informations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        color: black;
+        font-size: 14px;
+    }
+}
